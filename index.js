@@ -118,7 +118,7 @@ if (batch.size < 100) break;
 }
 
 const lines = [];
-lines.push(=== TRANSCRIPT TICKET ===);
+lines.push("=== TRANSCRIPT TICKET ===");
 lines.push(Servidor: ${channel.guild.name});
 lines.push(Canal: #${channel.name} (${channel.id}));
 lines.push(Gerado em: ${new Date().toLocaleString("pt-BR")});
