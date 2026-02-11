@@ -664,3 +664,4 @@ client.on(Events.InteractionCreate, async (interaction) => {
       const openedAt = info.openedAt ? new Date(info.openedAt) : null;
 
       const transcript = awa
+      });
